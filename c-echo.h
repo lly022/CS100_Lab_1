@@ -7,7 +7,6 @@ std::string echo(int length, char** chars) {
         if(i < length - 1) {
             ret += " ";
         }
-    }
-    ret += "\n";
+    } 
     return ret;
 }
